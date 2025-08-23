@@ -1,0 +1,15 @@
+.user-avatar {
+  width: 44px;
+  height: 44px;
+}
+
+@media (max-width: 576px) {
+  .py-sm-14 {
+    padding-top: 50px;
+    padding-bottom: 14px;
+  }
+}
+
+.border-none {
+  border: none;
+}

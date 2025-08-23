@@ -1,0 +1,32 @@
+/* Reset root font size */
+html {
+  font-size: 16px;
+}
+
+/* 標籤的基本樣式 */
+body {
+  letter-spacing: 0.02em;
+}
+
+// 等同 Bootstrap 的 img-fluid
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+}
+
+.icon-20 {
+  font-size: 20px !important;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-24 {
+  font-size: 24px !important;
+  width: 24px;
+  height: 24px;
+}
