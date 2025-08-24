@@ -1,20 +1,9 @@
-.w-600 {
-  width: 600px;
-}
-
-.h-1000 {
-  height: 1000px;
-}
-
 .object-fit-cover {
   object-fit: contain;
   height: 100%;
 }
 
 .login-cover-img {
-  // max-height: 100vh;
-  // object-fit: cover;
-  // display: block;
   width: 600px;
   height: 1000px;
   object-fit: contain;
@@ -31,18 +20,6 @@
 .underlined {
   text-decoration: underline;
 }
-
-// .swiper{
-//     max-width:700px;
-//     // height: auto;
-//     padding: 40px 0px;
-//     padding-left: 40px;
-// }
-
-// .swiper-slide{
-// height: auto;
-// // width: 600px;
-// }
 
 .swiper,
 .swiper-slide,
