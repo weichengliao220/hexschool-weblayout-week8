@@ -17,3 +17,99 @@
     margin-bottom: 40px !important;
   }
 }
+
+@media (min-width: 577px) {
+  .user-avatar-lg {
+    width: 160px;
+    height: 160px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: $primary;
+  }
+}
+
+@media (max-width: 576px) {
+  .user-avatar-md {
+    width: 120px;
+    height: 120px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $primary;
+  }
+}
+
+.padding-nav {
+  padding: 28px 24px;
+}
+
+.padding-info {
+  padding: 64px 32px 32px 32px;
+}
+
+@media (max-width: 992px) {
+  .padding-info {
+    padding: 32px 16px 16px 16px;
+  }
+}
+
+.w-384 {
+  width: 384px;
+}
+
+.nav-underline .nav-link {
+  display: inline-block;
+  width: auto;
+}
+
+.nav-underline .nav-link.active {
+  border-bottom: 4px solid $primary-40;
+}
+
+.nav-underline .nav-link:hover {
+  border-bottom: 4px solid $primary-10;
+}
+
+.h-88 {
+  height: 88px;
+}
+
+.traveler-hover:hover {
+  background-color: $neutral-40;
+}
+
+.blackish-green {
+  color: #112211;
+}
+
+@media (min-width: 768px) {
+  .traveler-hover:hover .traveler-actions {
+    display: block !important;
+  }
+}
+
+.bg-line-bg {
+  background-image: url('../assets/images/user/bg-line.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+@media (max-width: 992px) {
+  .btn-w100-sm {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-img {
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .fs-48 {
+    font-size: 48px;
+  }
+}
