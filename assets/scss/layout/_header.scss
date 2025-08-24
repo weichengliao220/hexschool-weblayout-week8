@@ -1,15 +1,27 @@
 .user-avatar {
-  width: 44px;
-  height: 44px;
+  width: 32px;
+  height: 32px;
 }
 
-@media (max-width: 576px) {
-  .py-sm-14 {
-    padding-top: 50px;
-    padding-bottom: 14px;
-  }
+// @media (max-width: 576px) {
+//   .py-sm-14 {
+//     padding-top: 50px;
+//     padding-bottom: 14px;
+//   }
+// }
+
+// .border-none {
+//   border: none;
+// }
+
+.w-400 {
+  width: 400px;
 }
 
-.border-none {
-  border: none;
+.ps-28 {
+  padding-left: 28px !important;
+}
+
+.form-control::placeholder {
+  color: $neutral-60;
 }

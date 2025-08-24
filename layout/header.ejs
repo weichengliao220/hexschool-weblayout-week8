@@ -1,46 +1,40 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom py-2_5 sticky-top">
+<nav class="navbar bg-white">
   <div class="container">
-    <a class="navbar-brand" href="#">
-      <img src="/assets/images/logo.svg" alt="logo">
-    </a>
-
-    <div class="d-flex">
-      <!-- Avatar (visible on mobile, positioned before toggler) -->
-      <div class="d-md-none">
+    <div class="d-flex me-auto">
+      <a href="#">
+        <img src="../assets/images/navbar/logo-header.png" alt="logo">
+      </a>
+      <form class="d-flex w-100 w-md-400 ms-4 d-none d-md-block" role="search">
+        <span class="material-symbols-outlined icon-24 position-absolute mx-1 text-neutral-60"
+          style="top: 50%; transform: translateY(-50%);">
+          search
+        </span>
+        <input class="form-control me-2 ps-28" type="search" placeholder="搜尋景點、地點或城市" aria-label="Search" />
+      </form>
+    </div>
+    <div class="d-flex ms-auto align-items-center">
+      <a href="#" class="align-bottom icon-20 me-3 d-md-none">
+        <span class="material-symbols-outlined">
+          search
+        </span>
+      </a>
+      <a href="#" class="align-bottom icon-20 me-3">
+        <span class="material-symbols-outlined">
+          shopping_cart
+        </span>
+      </a>
+      <a href="#" class="align-bottom icon-20 me-3 d-md-none">
+        <span class="material-symbols-outlined">
+          menu
+        </span>
+      </a>
+      <div class="d-none d-md-block">
         <a href="user.html" class="d-flex align-items-center text-decoration-none">
-          <img src="/assets/images/avatar.png" alt="avatar" class="rounded-circle border me-2 user-avatar">
-          <span>Mokumaru</span>
+          <img src="/assets/images/user/avatar-1.png" alt="avatar-1" class="rounded-circle border me-2 user-avatar">
+          <span class="fw-bold text-primary">Jessica</span>
         </a>
       </div>
-
-      <!-- Navbar toggler (now on the right) -->
-      <button class="d-lg-none navbar-toggler border-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon icon-24"></span>
-      </button>
     </div>
 
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link me-3 text-black fs-6" href="#">服務方案</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link me-3 text-black fs-6" href="#">關於職旅</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link me-3 text-black fs-6" href="#">聯絡我們</a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- Avatar (visible on desktop only) -->
-    <div class="d-none d-md-block">
-      <a href="user.html" class="d-flex align-items-center text-decoration-none">
-        <img src="/assets/images/avatar.png" alt="avatar" class="rounded-circle border me-2 user-avatar">
-        <span>Mokumaru</span>
-      </a>
-    </div>
   </div>
 </nav>
