@@ -50,3 +50,12 @@
   border-radius: 40px;
   overflow: hidden;
 }
+
+.login-btn:hover {
+  background-color: $primary-100 !important;
+  cursor: pointer;
+}
+
+.login-btn:hover span {
+  color: $white !important;
+}
